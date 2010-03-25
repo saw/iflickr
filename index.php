@@ -1,13 +1,18 @@
 <?php
 
 include 'classes.php';
+include 'lib/yql.php';
+include 'models/flickr.php';
+include 'controllers/index.php';
+include 'controllers/browser.php';
 
 $requestedURI =  preg_replace('/\?(.+)?/','', $_SERVER["REQUEST_URI"]);
 
 
 $map = array(
     '/' => 'index',
-    '/test' => 'test'
+    '/test' => 'test',
+	'/browser' => 'browser'
 );
 
 if($map[$requestedURI]){

@@ -8,17 +8,8 @@
 
 </head>
 <body>
-<div id="doc" class="yui-t7">
-   <div id="hd" role="banner"><h1>Header</h1></div>
-   <div id="bd" role="main">
-	<div class="yui-g">
-	
+<div id="doc">
 	<?php echo($content); ?>
-	
-	</div>
-
-	</div>
-   <div id="ft" role="contentinfo"><p>Footer</p></div>
 </div>
 </body>
 </html>
