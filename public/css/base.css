@@ -1,0 +1,86 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 3.0.0
+build: 1549
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+html{
+	background-color: #676767;
+	margin: 0px
+}
+
+body{
+	margin: 0px;
+	height: 100%;
+}
+
+#doc{
+	margin: 0 0 0 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#doc #sb{
+	width: 120px;
+	height: 100%;
+	position: absolute;
+	margin: 0px auto;
+	background-color: #dadfe8;
+	border-right: 1px solid #515151;
+}
+
+#doc #viewer{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 120px;
+	margin:  0px auto;
+}
+
+#doc #viewer .hd{
+	height: 25px;
+	position: fixed;
+	top: 0;
+	left: 120px;
+	right: 0px;
+	background: #ccc url(/imgs/gradient.png) repeat;
+	border-bottom: 1px solid #515151;
+}
+
+
+
+#doc #viewer .bd{
+	display: block;
+	position: fixed;
+	top: 26px;
+	bottom: 42px;
+	left: 132px;
+	right: 0px;
+	padding-right: 12px;
+	overflow: auto;
+}
+
+
+#doc #viewer .ft{
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	left:120px;
+	height: 41px;
+	width: 100%;
+	background: #fff;
+}
+
+
+
+#doc #viewer li{
+	list-style: none;
+	float: left;
+	height: 300px;
+	width: 300px;
+}
